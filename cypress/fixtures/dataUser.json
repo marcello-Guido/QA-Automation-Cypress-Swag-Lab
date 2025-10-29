@@ -1,0 +1,16 @@
+{
+    "userSuccess": {
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+    "userFail": {
+        "username": "admin_user",
+        "password": "secret_admin"
+    },
+    "messageLogin": {
+        "messageInvalid": "Epic sadface: Username and password do not match any user in this service",
+        "messageLoginSuccess": "Products",
+        "messageEmpty": "Epic sadface: Username is required",
+        "messagePassEmpty": "Epic sadface: Password is required"
+    }
+}
