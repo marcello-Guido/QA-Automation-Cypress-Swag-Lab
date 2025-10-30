@@ -12,5 +12,10 @@
         "messageLoginSuccess": "Products",
         "messageEmpty": "Epic sadface: Username is required",
         "messagePassEmpty": "Epic sadface: Password is required"
+    },
+    "checkout": {
+        "firstname": "Admin",
+        "lastname": "Test",
+        "zipcode": "123456"
     }
 }
