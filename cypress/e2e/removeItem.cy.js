@@ -21,7 +21,17 @@ describe('Removendo itens do cart', () => {
         loginPage.loginFunction(dataUser.userSuccess.username, dataUser.userSuccess.password)
         addPage.addItemByCard()
         removePage.removeItemCataloge()
+
     });
+
+    it('Remover item pelo cart', () => {
+        cy.visit('/')
+        loginPage.loginFunction(dataUser.userSuccess.username, dataUser.userSuccess.password)
+        addPage.cartCheck('Sauce Labs Backpack', 'Sauce Labs Bike Light')
+        removePage.removeItemCart()
+
+    });
+
 
 
 
